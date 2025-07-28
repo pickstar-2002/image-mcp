@@ -1,6 +1,6 @@
 # 图像格式转换 MCP 服务器
 
-[![npm version](https://badge.fury.io/js/image-converter-mcp.svg)](https://badge.fury.io/js/image-converter-mcp)
+[![npm version](https://badge.fury.io/js/@codebuddy%2Fimage-converter-mcp.svg)](https://badge.fury.io/js/@codebuddy%2Fimage-converter-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 基于 Model Context Protocol (MCP) 的多格式图像转换服务器，支持11种输入格式和9种输出格式的相互转换。
@@ -9,7 +9,7 @@
 
 ### NPM 安装
 ```bash
-npm install -g image-converter-mcp
+npm install -g @codebuddy/image-converter-mcp
 ```
 
 ### 从源码安装
