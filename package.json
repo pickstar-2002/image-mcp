@@ -1,5 +1,5 @@
 {
-  "name": "image-converter-mcp",
+  "name": "@codebuddy/image-converter-mcp",
   "version": "1.0.0",
   "description": "基于MCP协议的多格式图像转换服务器，支持JPG/PNG/WebP/GIF/BMP/TIFF/SVG/ICO/AVIF等格式互转",
   "main": "dist/index.js",
