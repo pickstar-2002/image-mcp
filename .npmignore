@@ -1,0 +1,19 @@
+# 源代码
+src/
+*.ts
+!*.d.ts
+
+# 测试文件
+test*.js
+image-test/
+
+# 开发文件
+.git/
+.gitignore
+tsconfig.json
+node_modules/
+npm-debug.log*
+
+# 文档
+*.md
+!README.md

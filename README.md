@@ -1,6 +1,24 @@
 # 图像格式转换 MCP 服务器
 
-基于 Model Context Protocol (MCP) 的图像格式转换服务，支持多种图像格式的相互转换。
+[![npm version](https://badge.fury.io/js/image-converter-mcp.svg)](https://badge.fury.io/js/image-converter-mcp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+基于 Model Context Protocol (MCP) 的多格式图像转换服务器，支持11种输入格式和9种输出格式的相互转换。
+
+## 📦 安装
+
+### NPM 安装
+```bash
+npm install -g image-converter-mcp
+```
+
+### 从源码安装
+```bash
+git clone https://github.com/your-username/image-converter-mcp.git
+cd image-converter-mcp
+npm install
+npm run build
+```
 
 ## 🎯 功能特性
 
@@ -30,24 +48,26 @@
 
 ## 🚀 快速开始
 
-### 安装依赖
+### 作为MCP服务器使用
 ```bash
-npm install
-```
+# 全局安装后直接使用
+image-converter-mcp
 
-### 构建项目
-```bash
-npm run build
-```
-
-### 启动MCP服务器
-```bash
-npm start
+# 或者使用npx
+npx image-converter-mcp
 ```
 
 ### 开发模式
 ```bash
+git clone https://github.com/your-username/image-converter-mcp.git
+cd image-converter-mcp
+npm install
 npm run dev
+```
+
+### 运行测试
+```bash
+npm test
 ```
 
 ## 🔧 MCP工具
