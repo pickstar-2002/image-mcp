@@ -2,6 +2,10 @@
 
 基于MCP协议的多格式图像转换服务器，支持JPG/PNG/WebP/GIF/BMP/TIFF/SVG/ICO/AVIF等格式互转。
 
+<a href="https://glama.ai/mcp/servers/@pickstar-2002/image-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@pickstar-2002/image-mcp/badge" alt="Image Converter Server MCP server" />
+</a>
+
 ## 🚀 快速开始
 
 ### 安装
