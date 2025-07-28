@@ -16,10 +16,53 @@ npx image-converter-mcp-server
 
 ### 使用方法
 
-启动MCP服务器：
+#### 方式1: 直接启动
 
 ```bash
 image-converter-mcp-server
+```
+
+#### 方式2: 通过MCP配置文件
+
+在你的MCP客户端配置文件中添加：
+
+```json
+{
+  "mcpServers": {
+    "image-converter": {
+      "command": "npx",
+      "args": ["image-converter-mcp-server"]
+    }
+  }
+}
+```
+
+或者如果已全局安装：
+
+```json
+{
+  "mcpServers": {
+    "image-converter": {
+      "command": "image-converter-mcp-server"
+    }
+  }
+}
+```
+
+#### 方式3: Claude Desktop配置
+
+在 `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS) 或 `%APPDATA%\Claude\claude_desktop_config.json` (Windows) 中添加：
+
+```json
+{
+  "mcpServers": {
+    "image-converter": {
+      "command": "npx",
+      "args": ["image-converter-mcp-server"],
+      "env": {}
+    }
+  }
+}
 ```
 
 ## ✨ 功能特性
@@ -100,7 +143,7 @@ image-converter-mcp-server
 
 ```bash
 # 克隆仓库
-git clone https://github.com/your-username/image-converter-mcp.git
+git clone https://github.com/pickstar-2025/image-converter-mcp.git
 cd image-converter-mcp
 
 # 安装依赖
